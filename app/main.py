@@ -5,6 +5,7 @@ import numpy as np
 from pathlib import Path
 
 
+model = joblib.load("models/model.pkl")
 MODEL_PATH = Path("models/model.pkl")
 
 
